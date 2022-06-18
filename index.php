@@ -1,5 +1,10 @@
 <?php
 
-$greeting = "I am here, greeting"; 
+$names = [
+    'Hello',
+    'Gello',
+    'Universe'
+];
 
-require 'index_view.php';   
+require 'index_view.php';
+?>

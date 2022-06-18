@@ -7,8 +7,17 @@
 <body>
     <header>
         <h1>
-            <!-- 1. Concept : Seperation of Concerns -->
-            <?= $greeting ?>
+            <ul>
+                <?php foreach ($names as $name) : ?>
+                    <li><?= $name; ?></li>
+                <?php endforeach; ?>
+
+                <?php        
+                    foreach ($names as $name){
+                        echo '<li>' . $name . '</li>';
+                    }
+                ?>
+            </ul>
         </h1>
     </header>
 </body>
